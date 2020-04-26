@@ -20,7 +20,8 @@ a{text-decoration: none;}
 h1{font-size: 40px;}
 p{font-size: 18px;}
 
-.title{font-family: segoe ui;}
+.title{font-family: segoe ui;
+text-align: center;}
 
 
 .blogs{display:grid;
@@ -43,9 +44,13 @@ grid-auto-flow: column;
 padding-bottom:20px;}
 
 .project{height:150px;
-width:300px;
-background-color: #f2f2f2;
+max-width:300px;
+background-color: #ffffff;
 margin:20px;
+padding:20px;
+font-family: helvetica;
+box-shadow:5px 5px #e6e6e6 ;
+border-radius: 3px;
 }
 
 footer{height:50px;
@@ -85,6 +90,7 @@ font-size: 20px;}
 flex-direction: row;}
 .info{font-family: arial;}
 
+i{margin:5px;}
 
 @media only screen and (max-width: 600px) {
     .grid {
